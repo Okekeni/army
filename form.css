@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,85,0.75),rgba(0,0,85,0.75)), url(desktop-wallpaper-cross-christian-cross-cross-gallery-blue-cross.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(255,255,255,0.5);
+  width: 380px;
+  height: 610px;
+  background: transparent;
+  color: white;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+form{
+  width: 320px;
+  padding-left: 15px;
+}
+form input{
+  width:100%;
+  padding: 7px;
+  border-radius: 6px;
+  outline: none;
+}
+button{
+  width: 100px;
+  margin-top: 20px;
+  length: 30px;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  margin-left: 36%;
+  padding: 5px;
+}
